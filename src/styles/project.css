@@ -1,0 +1,29 @@
+.project_container {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    gap: 2em;
+}
+
+.title_project {
+    font-size: 3rem;
+    font-weight: 600;
+    color: gold;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.project_img_container {
+    width: 100%;
+    margin: auto;
+}
+
+.full_img {
+    width: 100%;
+}

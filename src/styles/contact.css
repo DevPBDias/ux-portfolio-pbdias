@@ -1,0 +1,43 @@
+.contact_container {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 6em;
+}
+
+.text_container {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+
+.title_contact {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.email {
+    font-size: 2rem;
+}
+
+.photo_container {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.photo {
+    height: 100%;
+    border-radius: 50%;
+}
