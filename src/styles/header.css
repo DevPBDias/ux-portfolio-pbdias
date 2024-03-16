@@ -56,3 +56,44 @@
     align-items: center;
     justify-items: center;
 }
+
+@media screen and (max-width: 1024px){
+    .links {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .title_header {
+        font-size: 3rem;
+    }
+
+    .icon {
+        width: 2em;
+        height: 2em;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .links {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    .title_header {
+        font-size: 2rem;
+    }
+
+    .icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .header_content{
+        flex-flow: column nowrap;
+        justify-content: center;
+        gap: 2em;
+    }
+}

@@ -7,6 +7,7 @@
     align-items: center;
     justify-items: center;
     gap: 6em;
+    margin: auto;
 }
 
 .text_container {
@@ -40,4 +41,49 @@
 .photo {
     height: 100%;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px){
+    .contact_container {
+        height: 50vh;
+        flex-flow: column nowrap;
+        gap: 3em;
+    }
+    
+    .title_contact {
+        font-size: 2rem;
+    }
+    
+    .email {
+        font-size: 1.5rem;
+    }
+    
+    .photo_container {
+        height: 65%;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .title_contact {
+        font-size: 2rem;
+    }
+    
+    .email {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .title_contact {
+        font-size: 1.5rem;
+    }
+    
+    .email {
+        font-size: 1rem;
+    }
+
+    .photo_container {
+        height: 60%;
+    }
 }

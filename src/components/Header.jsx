@@ -24,7 +24,7 @@ function Header() {
                         rel="noopener noreferrer"
                         to='https://www.behance.net/pbdias'
                     >
-                        <img src={iconBehance} alt="" />
+                        <img className='icon' src={iconBehance} alt="" />
                     </Link>
                     <Link
                         className='icon_container'
@@ -32,7 +32,7 @@ function Header() {
                         rel="noopener noreferrer"
                         to='https://github.com/DevPBDias/DevPBDias'
                     >
-                        <img src={iconGithub} alt="" />
+                        <img className='icon' src={iconGithub} alt="" />
 
                     </Link>
                     <Link
@@ -41,7 +41,7 @@ function Header() {
                         rel="noopener noreferrer"
                         to='https://www.linkedin.com/in/devpaulobrunomdias/'
                     >
-                        <img src={iconLinkedin} alt="" />
+                        <img className='icon' src={iconLinkedin} alt="" />
 
                     </Link>
                 </nav>
